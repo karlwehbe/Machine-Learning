@@ -6,10 +6,12 @@ Coursework from McGill COMP 551: implementations of classical ML and neural mode
 
 | File | Assignment | Topic |
 |------|------------|--------|
+| `Assignment_1.ipynb` | A1 | k-NN & decision trees |
 | `Assignment_2.ipynb` | A2 | Linear & logistic regression, classification |
 | `Assignment_3.ipynb` | A3 | Multilayer perceptrons on KMNIST |
+| `Assignment_4.ipynb` | A4 | BERT fine-tuning & embedding probes |
 
-Assignments 1 and 4 are not in this repo yet; summaries below match the full course set.
+Each assignment includes a companion report PDF (`Assignment_*-Report.pdf`).
 
 ## Assignments
 
@@ -50,9 +52,11 @@ Assignments 1 and 4 are not in this repo yet; summaries below match the full cou
 ## Running the notebooks
 
 1. Clone the repo and open a notebook in Jupyter or Colab.
-2. Install dependencies as needed in the first cells (`ucimlrepo`, `gower`, etc.).
-3. **A3:** Place KMNIST `.npz` files where the notebook expects them, or update `dataset_path` / load paths in the data cell.
+2. Install dependencies as needed in the first cells (`ucimlrepo`, `gower`, `transformers`, etc.).
+3. **A1:** Penguin CSV and heart-disease data paths may need updating if not using Google Drive.
 4. **A2:** Breast cancer data is fetched via `ucimlrepo`; penguin CSV may need a local path update if not on Drive.
+5. **A3:** Place KMNIST `.npz` files where the notebook expects them, or update `dataset_path` / load paths in the data cell.
+6. **A4:** AG News is loaded via Hugging Face `datasets`; GPU recommended for BERT fine-tuning.
 
 ## Notes
 
