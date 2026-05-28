@@ -6,11 +6,11 @@ McGill **COMP 551** coursework: end-to-end ML pipelines in Python spanning **ins
 
 | Artifact | Scope |
 |----------|--------|
-| `Assignment_1.ipynb` | k-NN, decision trees, heterogeneous feature distances |
-| `Assignment_2.ipynb` | Linear / logistic / softmax regression (GLMs) |
-| `Assignment_3.ipynb` | MLP from scratch; CNN baseline; regularization & activation ablations |
-| `Assignment_4.ipynb` | BERT representation probing and full fine-tuning |
-| `Assignment_*-Report.pdf` | Written reports per assignment |
+| `a1_knn_decision_trees.ipynb` | k-NN, decision trees, heterogeneous feature distances |
+| `a2_glm_regression_classification.ipynb` | Linear / logistic / softmax regression (GLMs) |
+| `a3_mlp_cnn_kmnist.ipynb` | MLP from scratch; CNN baseline; regularization & activation ablations |
+| `a4_bert_probing_finetuning_ag_news.ipynb` | BERT representation probing and full fine-tuning |
+| `a*_..._report.pdf` | Written reports per assignment |
 
 ---
 
